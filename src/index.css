@@ -10,9 +10,10 @@
 }
 
 body {
-  margin: 6;
+  margin: 0 6px;
   padding: 0;
   background: whitesmoke;
+  height: 100vh;
 }
 
 code {
@@ -45,7 +46,7 @@ header h1 {
   letter-spacing: 2px;
   color: var(--main-red);
   text-shadow: 2px 2px var(--shadow-color);
-  margin: 0;
+  margin: 12px 0;
   padding: 6px;
   cursor: pointer;
 }
@@ -85,26 +86,26 @@ nav.navactive {
 
 /* __________________________________MAIN PAGE(HOME)___________________________________ */
 
-.main-container {
+.main-container, .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: var(--bg-red);
   align-items: center;
   min-height: 690px;
-  max-height: 500px;
-  margin: 15px 0px;
+  max-height: 100%;
+  margin: 10px 0;
   overflow-y: scroll;
 }
 
-.main-container {
+.main-container, .about {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.main-container::-webkit-scrollbar {
+.main-container::-webkit-scrollbar, .about::-webkit-scrollbar {
   display: none;
-} 
+}   */
 
 .main-container h1 {
   font-size: 100px;
@@ -113,6 +114,35 @@ nav.navactive {
   color: gray;
 }
 
+/* _____________________________________ABOUT PAGE____________________________________ */
+
+.about h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 55px;
+  font-weight: 100;
+  border-bottom: 1px solid lightgray;
+  letter-spacing: 5px;
+  color: lightgray;
+}
+
+.about-body {
+  display: flex;
+  width: 75%;
+  max-height: 450px;
+  margin-bottom: 60px;
+}
+
+.about-body p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  height: 100%;
+  padding-bottom: 20px;
+  color: white;
+  letter-spacing: 1.5px;
+}
 /* _______________________________________FOOTER______________________________________ */
 
 footer {
@@ -121,7 +151,7 @@ footer {
   align-items: center;
   padding: 20px 60px;
   width: 100%;
-  height: 75px;
+  height: 100%;
   background: lightgray;
   border-top: 1px solid var(--shadow-color);
   opacity: 50%;
