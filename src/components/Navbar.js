@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Navbar(props) {
   const { currentTab, setCurrentTab } = props;
 
-  return(
-    <header className='header'>
-      <h1>William Lowrimore</h1>
+  return (
+    <header className="header">
+      <h1 className={currentTab === "main" ? "navActive" : "mx-2"}>
+        <span onClick={() => setCurrentTab("main")}> William Lowrimore</span>
+      </h1>
       <nav>
         <ul>
           <li className={currentTab === "about" ? "navActive" : "mx-2"}>
@@ -23,7 +25,7 @@ function Navbar(props) {
         </ul>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Navbar;

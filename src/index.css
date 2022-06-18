@@ -3,6 +3,7 @@
 }
 
 :root {
+  --bg-red: #3e3030;
   --main-red: #4b0202;
   --hover-red: #a20303;
   --shadow-color: #80694f;
@@ -46,8 +47,13 @@ header h1 {
   text-shadow: 2px 2px var(--shadow-color);
   margin: 0;
   padding: 6px;
+  cursor: pointer;
 }
 
+header h1:hover {
+  opacity: 80%;
+  transition: .2s;
+}
 nav {
   display: flex;
   list-style: none;
@@ -77,30 +83,30 @@ nav.navactive {
   text-shadow: 1px 1px var(--shadow-color);
 }
 
-/* __________________________________DUMMY CONTAINER__________________________________ */
+/* __________________________________MAIN PAGE(HOME)___________________________________ */
 
-.dummy-container {
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #383737;
+  background: var(--bg-red);
   align-items: center;
   min-height: 690px;
   max-height: 500px;
-  margin: 15px 4px;
+  margin: 15px 0px;
   overflow-y: scroll;
 }
 
-.dummy-container {
+.main-container {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.dummy-container::-webkit-scrollbar {
+.main-container::-webkit-scrollbar {
   display: none;
 } 
 
-.dummy-container h1 {
+.main-container h1 {
   font-size: 100px;
   font-family: "Poppins", serif;
   font-weight: 200;
