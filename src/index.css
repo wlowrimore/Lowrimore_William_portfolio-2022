@@ -88,12 +88,13 @@ nav.navactive {
 
 .main-container, .about {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   background: var(--bg-red);
   align-items: center;
   min-height: 690px;
   max-height: 100%;
+  width: 100%;
   margin: 10px 0;
   overflow-y: scroll;
 }
@@ -105,14 +106,39 @@ nav.navactive {
 
 .main-container::-webkit-scrollbar, .about::-webkit-scrollbar {
   display: none;
-}   */
-
-.main-container h1 {
-  font-size: 100px;
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  color: gray;
 }
+
+.intro {
+  color: silver;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro h1 {
+  margin-bottom: 18px;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  
+  /* margin-right: 80px; */
+}
+
+.intro p {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.intro ul {
+}
+
+.main-container img {
+  width: 400px;
+  margin-left: 80px;;
+}
+
+
 
 /* _____________________________________ABOUT PAGE____________________________________ */
 
