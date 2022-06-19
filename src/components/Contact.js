@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
   FaMailchimp,
   FaMobileAlt,
+  FaAt,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -32,7 +33,7 @@ export default function Contact() {
             <li>
               <a href="" target="_blank" rel="noreferrer noopener">
                 <span className="icon">
-                  <FaMailchimp />
+                  <FaAt />
                 </span>
                 Email
               </a>
