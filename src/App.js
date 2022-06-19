@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import About from "./components/About";
 import ProjectInfo from "./components/ProjectInfo";
+import Contact from "./components/Contact";
 
 function App() {
   const [currentTab, setCurrentTab] = useState("main");
@@ -19,6 +20,8 @@ function App() {
         return <About />;
       case "projects":
         return <ProjectInfo />;
+      case "contact":
+        return <Contact />;
     }
   };
   return (

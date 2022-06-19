@@ -15,7 +15,7 @@ export default function Main() {
         </ul>
       </div>
 
-      <img src={ProfilePic} alt="William Lowrimore" />
+      {/* <img src={ProfilePic} alt="William Lowrimore" /> */}
     </section>
   );
 }

@@ -8,7 +8,7 @@ export default function ProjectInfo() {
       <div className="card-display">
         <Projects
           image={require("../images/bounty_book.jpg")}
-          name="Bounty Book MERN"
+          name="Bounty Book (MERN)"
           repo="https://github.com/wlowrimore/wdl_vandy_bc_react_portfolio_2022"
           target="_blank"
           rel="noreferrer noopener"
@@ -31,7 +31,7 @@ export default function ProjectInfo() {
         />
         <Projects
           image={require("../images/budget_tracker_pwa.jpg")}
-          name="Budget Tracker PWA"
+          name="Budget Tracker (PWA)"
           repo="https://github.com/wlowrimore/Vandy-bc-PWA-Budget-Tracker-Chlng-19-2022"
           target="_blank"
           rel="noreferrer noopener"
@@ -78,7 +78,7 @@ export default function ProjectInfo() {
         />
         <Projects
           image={require("../images/tech_blog_mvc.jpg")}
-          name="Tech Blog MVC"
+          name="Tech Blog (MVC)"
           repo="https://github.com/wlowrimore/Vandy-bc-2022-MVC-Tech-Blog-Chlng-14"
           target="_blank"
           rel="noreferrer noopener"
@@ -95,7 +95,7 @@ export default function ProjectInfo() {
 
         <Projects
           image={require("../images/pizza_hunt.jpg")}
-          name="Pizza Hunt MVC"
+          name="Pizza Hunt (MVC)"
           repo="https://github.com/wlowrimore/pizza-hunt"
           target="_blank"
           rel="noreferrer noopener"
@@ -109,7 +109,7 @@ export default function ProjectInfo() {
 
         <Projects
           image={require("../images/horiseon_refractor.jpg")}
-          name="Horiseon SEO"
+          name="Horiseon (SEO)"
           repo="https://github.com/wlowrimore/vu-bc-12-2021-horiseon"
           target="_blank"
           rel="noreferrer noopener"
