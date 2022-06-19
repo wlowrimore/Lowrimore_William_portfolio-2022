@@ -171,6 +171,16 @@ nav.navactive {
   overflow-y: scroll;
   background: var(--bg-red);
 }
+
+.about {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
+}
+
 .about h1 {
   display: flex;
   justify-content: center;
@@ -198,6 +208,104 @@ nav.navactive {
   color: white;
   letter-spacing: 1.5px;
 }
+
+/* ______________________________________PROJECTS_____________________________________ */
+
+.projects h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 55px;
+  font-weight: 100;
+  border-bottom: 1px solid lightgray;
+  letter-spacing: 5px;
+  color: lightgray;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 690px;
+  max-height: 100%;
+  width: 100%;
+  margin: 10px 0;
+  background: var(--bg-red);
+  overflow-y: scroll;
+}
+
+.projects {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
+} 
+
+.card-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
+  /* margin: 20px; */
+  width: 90%;
+}
+
+.projects-card {
+  flex-basis: 225px;
+  font-family: "Quicksand", serif;
+  color: whitesmoke;
+  border: 1px solid silver;
+  border-radius: 5px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  min-width: 26%;
+  height: auto;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.projects-card h3 {
+  font-size: 24px;
+  color: var(--shadow-color);
+}
+
+.projects-card img {
+  height: auto;
+  /* align-self: center; */
+  border-radius: 5px;
+  
+}
+
+.info-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-group > p {
+  line-height: 1.2;
+  margin-block: 3px;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+.projects-link a {
+  color: silver;
+  font-size: 40px;
+  margin: 16px;
+}
+
+.projects-link a:hover {
+  color: var(--shadow-color);
+  transition: .4s;
+}
+
 /* _______________________________________FOOTER______________________________________ */
 
 footer {
