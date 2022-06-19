@@ -6,12 +6,12 @@ export default function Main() {
     <section className="main-container" id="main">
       <div className="intro">
         <h1>Full Stack Developer</h1>
-        <span><p>certified in:</p></span>
+        <span>
+          <p>certified in:</p>
+        </span>
         <ul>
-          <li>MERN Stack</li>
-          <li>Front-End Development</li>
-          <li>Back-End Development</li>
-          <li>UI</li>
+          <li>MERN Stack</li>|<li>Front-End Development</li>|
+          <li>Back-End Development</li>|<li>UI Design</li>
         </ul>
       </div>
 
