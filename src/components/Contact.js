@@ -1,4 +1,6 @@
 import React from "react";
+
+
 import {
   FaGithubAlt,
   FaLinkedinIn,
@@ -15,7 +17,11 @@ export default function Contact() {
         <div className="contact-links">
           <ul>
             <li>
-              <a href="" target="_blank" rel="noreferrer noopener">
+              <a
+                href="https://github.com/wlowrimore"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <span className="icon">
                   <FaGithubAlt />
                 </span>
@@ -23,7 +29,11 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noreferrer noopener">
+              <a
+                href="https://linkedin.com/in/william-lowrimore-21778310"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <span className="icon">
                   <FaLinkedinIn />
                 </span>
@@ -31,7 +41,11 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noreferrer noopener">
+              <a
+                href={"email-service.js"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <span className="icon">
                   <FaAt />
                 </span>
@@ -39,7 +53,11 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noreferrer noopener">
+              <a
+                href="tel:+19015687961"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <span className="icon">
                   <FaMobileAlt />
                 </span>

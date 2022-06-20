@@ -8,7 +8,15 @@ export default function Footer() {
       </div>
 
       <div>
-        <p>linking icons will go here!</p>
+        <p>
+          <a
+            href="https://github.com/wlowrimore/Lowrimore_William_portfolio-2022"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Visit the Github Repository
+          </a>
+        </p>
       </div>
     </footer>
   );
