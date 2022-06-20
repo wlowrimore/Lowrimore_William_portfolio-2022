@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 export default function emailSrvc() {
   const form = useRef();
@@ -22,7 +22,7 @@ export default function emailSrvc() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form id="email" ref={form} onSubmit={sendEmail} className="form-style">
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>

@@ -8,6 +8,8 @@ import Main from "./components/Main";
 import About from "./components/About";
 import ProjectInfo from "./components/ProjectInfo";
 import Contact from "./components/Contact";
+import Modal from "./components/Modal";
+import { render } from "react-dom";
 
 function App() {
   const [currentTab, setCurrentTab] = useState("main");

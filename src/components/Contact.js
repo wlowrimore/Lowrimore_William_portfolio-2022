@@ -1,15 +1,19 @@
-import React from "react";
-
-
-import {
-  FaGithubAlt,
-  FaLinkedinIn,
-  FaMailchimp,
-  FaMobileAlt,
-  FaAt,
-} from "react-icons/fa";
+import React, { useState } from "react";
+import Modal from "./Modal";
+import { FaGithubAlt, FaLinkedinIn, FaMobileAlt, FaAt } from "react-icons/fa";
+// import { render } from "@testing-library/react";
 
 export default function Contact() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  close = () => {
+    this.setState({ showModal: false });
+  };
+
+  open = () => {
+    this.setState({ showModal: true });
+  };
+
   return (
     <section id="contact" className="contact-container">
       <div className="contact-intro">
@@ -42,10 +46,10 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href={"email-service.js"}
-                target="_blank"
-                rel="noreferrer noopener"
+                href="email"
+                onClick={(e) => setIsOpen(true)}
               >
+                {isOpen && <Modal setIsOpen={setIsOpen} />}
                 <span className="icon">
                   <FaAt />
                 </span>
@@ -55,9 +59,7 @@ export default function Contact() {
             <li>
               <a
                 href="tel:+19015687961"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+                >
                 <span className="icon">
                   <FaMobileAlt />
                 </span>
