@@ -6,12 +6,13 @@ import { FaGithubAlt, FaLinkedinIn, FaMobileAlt, FaAt } from "react-icons/fa";
 export default function Contact() {
   const [isOpen, setIsOpen] = useState(false);
 
-  close = () => {
-    this.setState({ showModal: false });
+  const showModal = (e) => {
+    e.preventDefault();
+    setIsOpen(true);
   };
 
-  open = () => {
-    this.setState({ showModal: true });
+  const hideModal = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -45,21 +46,16 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a
-                href="email"
-                onClick={(e) => setIsOpen(true)}
-              >
-                {isOpen && <Modal setIsOpen={setIsOpen} />}
+              <a href="modal" onClick={showModal}>
                 <span className="icon">
                   <FaAt />
                 </span>
                 Email
               </a>
+              <Modal onClose={hideModal} isOpened={isOpen} />
             </li>
             <li>
-              <a
-                href="tel:+19015687961"
-                >
+              <a href="tel:+19015687961">
                 <span className="icon">
                   <FaMobileAlt />
                 </span>

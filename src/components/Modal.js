@@ -4,10 +4,14 @@ import EmailSrvc from "./EmailSrvc";
 import { RiCloseLine } from "react-icons/ri";
 import { FaLightbulb } from "react-icons/fa";
 
-const Modal = ({ setIsOpen }) => {
+const Modal = ({ onClose, isOpened }) => {
+  if (!isOpened) {
+    return null;
+  }
+
   return (
     <>
-      <div className="darkBG" onClick={() => setIsOpen(false)} />
+      <div className="darkBG" id="modal" onClick={onClose} />
       <div className="centered">
         <div className="modal">
           <div className="modalHeader">
@@ -15,7 +19,7 @@ const Modal = ({ setIsOpen }) => {
               <FaLightbulb /> Your Thoughts?
             </h5>
           </div>
-          <button className="closeBtn" onClick={() => setIsOpen(false)}>
+          <button className="closeBtn" onClick={onClose}>
             <RiCloseLine style={{ marginBottom: "-3px" }} />
           </button>
           <div className="modalContent">
@@ -23,10 +27,10 @@ const Modal = ({ setIsOpen }) => {
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
-              <button className="deleteBtn" onClick={() => setIsOpen(false)}>
+              <button className="deleteBtn" onClick={onClose}>
                 Delete
               </button>
-              <button className="cancelBtn" onClick={() => setIsOpen(false)}>
+              <button className="cancelBtn" onClick={onClose}>
                 Cancel
               </button>
             </div>

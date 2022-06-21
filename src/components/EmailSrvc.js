@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
-// import emailjs from "@emailjs/browser";
 
-export default function emailSrvc() {
+export default function EmailSrvc() {
   const form = useRef();
 
   const SERVICE_ID = "service_xpva2bf";
@@ -14,6 +13,7 @@ export default function emailSrvc() {
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
       (result) => {
         console.log(result.text);
+        form.reset();
       },
       (error) => {
         console.log(error.text);
@@ -29,7 +29,7 @@ export default function emailSrvc() {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <button type="submit" value="Send" className="sendBtn">Send</button>
     </form>
   );
 }
