@@ -90,9 +90,9 @@ nav li:hover {
   cursor: pointer;
 }
 
-nav.navactive {
+.navActive {
   color: var(--hover-red);
-  text-shadow: 1px 1px var(--shadow-color);
+  text-decoration: underline;
 }
 
 /* __________________________________MAIN PAGE(HOME)___________________________________ */
@@ -384,6 +384,166 @@ nav.navactive {
   font-size: 30px;
   font-weight: 100;
   margin-right: 14px;
+}
+
+/* ______________________________________RESUME_______________________________________ */
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: "Lobster", cursive;
+}
+
+#resume h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  font-weight: 100;
+  padding-top: 22px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--shadow-color);
+  letter-spacing: 2px;
+  color: var(--header-red);
+}
+
+.dl {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dl a {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: black;
+  padding: 2px 2px;
+  font-weight: 400;
+  text-decoration: none;  
+}
+
+.dl a:hover {
+  padding: 6px 6px;
+  opacity: 40%;
+}
+
+.resume-header {
+  font-family: "Newsreader", serif;
+  background: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.resume h2 {
+  display: flex;
+  font-size: 18px;
+  align-items: flex-start;
+  margin-right: 6px;
+}
+
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: #000;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0;
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.resume-body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.resume-body::-webkit-scrollbar {
+  display: none;
+} 
+
+.resume-contact-info {
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+.resume-contact-info > li {
+  list-style:none
+}
+
+.resume-contact-info > a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.resume-contact-info >a:hover {
+  color: var(--header-red);
+  
+}
+
+.gh {
+  color: var(--hover-red);
+  font-size: 18px;
+  margin-right: 8px;  
+}
+
+.objective, .education, .coursework, .skills {
+  display: flex;
+  flex-direction: column;
+  font-family: "Newsreader", serif;
+  letter-spacing: 1px;
+  width: 90%;
+  padding: 0 20px;
+}
+
+.objective p {
+  font-family: "Poppins", serif;
+  line-height: 1.5;
+}
+
+.section-titles {
+  font-family: "Newsreader", serif;
+  line-height: 1.5;
+}
+
+.section-titles h4 {
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.education ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  line-height: 1.5;
+  padding: 0 40px;
+}
+
+.coursework ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  line-height: 1.5;
+  padding: 0 40px;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  line-height: 1.5;
+  margin-bottom: 65px;
+  padding: 0 40px;
 }
 
 /* _______________________________________FOOTER______________________________________ */
