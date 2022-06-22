@@ -3,6 +3,7 @@
 }
 
 :root {
+  --header-red: #694949;
   --bg-red: #3e3030;
   --main-red: #8a4242;
   --hover-red: #a20303;
@@ -52,7 +53,7 @@ header h1 {
   font-weight: 100;
   text-decoration-line: underline;
   letter-spacing: 4px;
-  color: var(--main-red);
+  color: var(--header-red);
   opacity: 90%;
   text-shadow: 2px 2px var(--shadow-color);
   margin: 12px 0;
@@ -420,17 +421,6 @@ footer a:hover {
 
 /* ______________________________________________MODAL_____________________________________________ */
 
-/* .darkBG {
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100vh;
-  z-index: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-} */
-
 .centered {
   position: fixed;
   top: 50%;
@@ -440,7 +430,7 @@ footer a:hover {
 
 .modal {
   width: 400px;
-  height: 500px;
+  height: 550px;
   background: silver;
   color: white;
   z-index: 10;
@@ -452,8 +442,10 @@ footer a:hover {
   height: 50px;
   background: white;
   overflow: hidden;
-  /* border-top-left-radius: 16px;
-  border-top-right-radius: 16px; */
+}
+
+.bulb {
+  color: #f2c85f;
 }
 
 .heading {
@@ -469,7 +461,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   background:  gray;
-  padding: 40px;
+  padding: 0 40px;
   font-size: 18px;
   color: #000;
   font-weight: 300;
@@ -483,6 +475,47 @@ footer a:hover {
   width: 100%;
 }
 
+.form-control {
+  width: 100%;
+}
+
+.att {
+  width: 100%
+}
+
+label {
+  color: #fff;
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+input {
+  height: 34px;
+  padding: 2px 6px;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  padding: 2px 6px;
+}
+
+.sendBtn {
+  border: 1px solid silver;
+  border-radius: 6px;
+  width: 17.5rem;
+  height: 32px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.sendBtn:hover {
+  background: silver;
+  color: #9d6e34;
+  transition: .3s;
+  cursor: pointer;
+}
 .actionsContainer {
   display: flex;
   justify-content: space-around;
@@ -497,21 +530,6 @@ footer a:hover {
   padding: 20px;
 }
 
-input, textarea {
-  width: 100%;
-  padding: 4px;
-}
-
-.sendBtn {
-  font-style: "Poppins", sans-serif;
-  font-size: 16px;
-  letter-spacing: 1px;
-  width: 100%;
-  height: 28px;
-  margin-top: 12px;
-  cursor: pointer;
-}
-
 .closeBtn {
   cursor: pointer;
   font-weight: 500;
@@ -522,18 +540,15 @@ input, textarea {
   color: #2c3e50;
   background: white;
   transition: all 0.25s ease;
-  /* box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06); */
   position: absolute;
   right: 0;
   top: 0;
   align-self: flex-end;
-  /* margin-top: -7px;
-  margin-right: -7px; */
 }
 
 .closeBtn:hover {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
-  transform: translate(-4px, 4px);
+  color: var(--main-red);
 }
 
 .deleteBtn {
@@ -550,11 +565,9 @@ input, textarea {
 }
 
 .deleteBtn:hover {
+  color: var(--main-red);
   opacity: 65%;
   transition: .3s;
-  /* box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
-  transform: translateY(-5px);
-  background: #ff3e4e; */
 }
 
 .cancelBtn {
@@ -573,25 +586,6 @@ input, textarea {
 .cancelBtn:hover {
   box-shadow: none;
   transform: none;
-  background: whitesmoke;
+  background: var(--main-red);
+  color: whitesmoke;
 }
-
-
-/* .primaryBtn {
-  margin: 20px 10px;
-  cursor: pointer;
-  font-weight: 500;
-  padding: 13px 25px;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  border: none;
-  color: white;
-  background: #185adb;
-  transition: all 0.25s ease;
-}
-
-.primaryBtn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
-} */
-

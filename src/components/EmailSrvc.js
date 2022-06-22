@@ -1,35 +1,67 @@
 import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 export default function EmailSrvc() {
-  const form = useRef();
-
-  const SERVICE_ID = "service_xpva2bf";
-  const TEMPLATE_ID = "template_ipazuhs";
-  const PUBLIC_KEY = "6mMLJJUzkP7lq3rbP";
-
-  const sendEmail = (e) => {
+  function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
-      (result) => {
-        console.log(result.text);
-        form.reset();
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  };
+    emailjs
+      .sendForm(
+        "service_ere8li4",
+        "template_6cu7t3j",
+        e.target,
+        "6mMLJJUzkP7lq3rbP"
+      )
+      .then(
+        (result) => {
+          alert(`Thank you for your input ${name}!`);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
 
   return (
-    <form id="email" ref={form} onSubmit={sendEmail} className="form-style">
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <button type="submit" value="Send" className="sendBtn">Send</button>
-    </form>
+    <div>
+      <div>
+        <form onSubmit={sendEmail} className="form-style">
+          <div className="att">
+            <label>Name</label>
+            <input
+              type="text"
+              required="true"
+              className="form-control"
+              name="name"
+            />
+          </div>
+          <div className="att">
+            <label>Email</label>
+            <input
+              type="email"
+              required="true"
+              className="form-control"
+              name="email"
+            />
+          </div>
+          <div className="att">
+            <label>Subject</label>
+            <input type="text" className="form-control" name="subject" />
+          </div>
+          <div className="att">
+            <label>Message</label>
+            <textarea className="form-control" required="true" name="message" />
+          </div>
+          <div>
+            <input
+              type="submit"
+              className="sendBtn"
+              value="Send Message"
+            ></input>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 }

@@ -16,7 +16,7 @@ const Modal = ({ onClose, isOpened }) => {
         <div className="modal">
           <div className="modalHeader">
             <h5 className="heading">
-              <FaLightbulb /> Your Thoughts?
+              <FaLightbulb className="bulb" /> Your Thoughts?
             </h5>
           </div>
           <button className="closeBtn" onClick={onClose}>

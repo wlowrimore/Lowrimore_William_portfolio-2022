@@ -24,6 +24,8 @@ function App() {
         return <ProjectInfo />;
       case "contact":
         return <Contact />;
+      case "default":
+        return null;
     }
   };
   return (
