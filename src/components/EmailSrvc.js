@@ -31,7 +31,7 @@ export default function EmailSrvc() {
             <label>Name</label>
             <input
               type="text"
-              required="true"
+              required={true}
               className="form-control"
               name="name"
             />
@@ -40,7 +40,7 @@ export default function EmailSrvc() {
             <label>Email</label>
             <input
               type="email"
-              required="true"
+              required={true}
               className="form-control"
               name="email"
             />
@@ -51,7 +51,7 @@ export default function EmailSrvc() {
           </div>
           <div className="att">
             <label>Message</label>
-            <textarea className="form-control" required="true" name="message" />
+            <textarea className="form-control" required={true} name="message" />
           </div>
           <div>
             <input

@@ -7,7 +7,7 @@ export default function Footer() {
         <p>Created by William Lowrimore &copy; 2022</p>
       </div>
 
-      <div>
+      <div className="repo-link">
         <p>
           <a
             href="https://github.com/wlowrimore/Lowrimore_William_portfolio-2022"

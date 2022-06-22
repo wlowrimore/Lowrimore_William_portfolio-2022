@@ -10,12 +10,10 @@ export default function Main() {
           <p>certified in:</p>
         </span>
         <ul>
-          <li>MERN Stack</li>|<li>Front-End Development</li>|
-          <li>Back-End Development</li>|<li>UI Design</li>
+          <li>MERN Stack</li> <li>Front-End Development</li>
+          <li>Back-End Development</li> <li>UI Design</li>
         </ul>
       </div>
-
-      {/* <img src={ProfilePic} alt="William Lowrimore" /> */}
     </section>
   );
 }
