@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# WILLIAM LOWRIMORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## FULL STACK WEB DEVELOPER<br><br>
+![badge](https://img.shields.io/badge/license-MIT-teal)<br /><br>
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+### Hello, friends. I'm William!
 
-### `npm start`
+With an intense ride down the super highway of Full Stack Coding Bootcamp behind me, I am now geared up and excited to take flight in the real world of Web Development! Since first receiving word of acceptance to the bootcamp, I have been coding daily. The feeling of creating something so unique and powerful that yields, not just a playful product, but a product designed to maximize success for any and all buisness platforms, is exhilarating and satisfying!<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+With so much more still to learn, I have created this simple, yet functionally sound Portfolio. With lots of styling packages available, I chose to use only Vanilla CSS to design the UI. React.js is the engine where I've created each component for rendering in the "root" of the html document. Rendering of these components was built with a simple "switch / case" function, and on the Contact page you will find a pop-up Modal that houses Emailjs for the user's questions and/or comments. The contact form provides me with the user's input by emailing it directly to my gmail acount.<br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Now, because I'm fresh out of school, my resume lacks something important..."work experience". This is "IMPORTANT" not because I lack the experience, but because I am adaptable...moldable if you will. Most importantly I am excited to learn!<br><br>
 
-### `npm test`
+So, check out my portfolio, and if you would like a printout of my resume, there is a link to do that on the Resume page. If you have a role that you think would suit me, please contact me. All of my contact information is right here in the Github repository. Otherwise, you can contact me throught the live site. Thanks for looking...ENJOY!<br><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
+  - [Installation](#installation)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
-### `npm run build`
+### License:
+  This project is licensed under:<br />
+  <a href="https//MIT.com" target="_blank" rel="noreferrer noopener">MIT</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ### Contributing:
+  If you have any ideas that you would like to share with me, please create a pull request and submit to me those ideas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ### Questions:
+  Please send any questions or comments to the email address below, or go to the life portfolio site and fill out the contact form.<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  This project was built using the following languages:<br />
+   - HTML<br>
+   - CSS<br>
+   - JavaScript (JSX, ES6)<br>
 
-### `npm run eject`
+  This is a React project so it was built using `npx create-react-app`, and includes npm React packages.  Other packages include Emailjs.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
+  See all of my projects on my GitHub page: https://github.com/wlowrimore, and be sure to visit my gist page where you'll find a RegEx tutorial that I built.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Contact me at my LinkedIn page: http://www.linkedin.com/in/william-lowrimore-21778310
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  You can also email me at: wlowrimore@gmail.com
