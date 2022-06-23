@@ -813,6 +813,9 @@ textarea {
 
   /* _________________________________________________________________ */
 
+  .main-container {
+    width: 100%;
+  }
   .main-container h1 {
     font-size: 36px;
     width: 100%;
