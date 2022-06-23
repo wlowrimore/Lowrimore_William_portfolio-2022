@@ -17,8 +17,8 @@ const ResumePage = () => {
         </a>
       </div>
       <div className="resume-body">
-        <header className="container-fluid resume-header">
-          <h2>William Lowrimore</h2>
+        <section className="container-fluid resume-header">
+          <h2 className="res-title">William Lowrimore</h2>
           <ul className="resume-contact-info">
             <li emailto="wlowrimore@gmail.com">wlowrimore@gmail.com</li>
             <li>901.568.7941</li>
@@ -31,7 +31,7 @@ const ResumePage = () => {
               <span>Github</span>
             </a>
           </ul>
-        </header>
+        </section>
 
         <section className="objective">
           <h2>Objective</h2>

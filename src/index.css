@@ -49,12 +49,12 @@ header {
   position: sticky; top: 0;
 }
 
-header h1 {
-  font-family: "Lobster", cursive;
+header h4 {
+  font-family: "Quicksand", serif;
   font-size: 70px;
   font-weight: 100;
-  letter-spacing: 4px;
   color: var(--header-red);
+  letter-spacing: 4px;
   opacity: 90%;
   text-shadow: 2px 2px var(--shadow-color);
   margin: 12px 0;
@@ -62,7 +62,7 @@ header h1 {
   cursor: pointer;
 }
 
-header h1:hover {
+header h4:hover {
   opacity: 80%;
   transition: .2s;
 }
@@ -91,10 +91,9 @@ nav li:hover {
   cursor: pointer;
 }
 
-.navActive {
-  color: var(--hover-red);
-  text-decoration: underline;
-}
+/* .navActive {
+  color: #000;
+} */
 
 /* __________________________________MAIN PAGE(HOME)___________________________________ */
 
@@ -415,6 +414,8 @@ nav li:hover {
 
 .dl {
   margin-top: 50px;
+  width: 100%;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -422,20 +423,41 @@ nav li:hover {
   font-size: 16px;
   letter-spacing: 2px;
   color: black;
-  padding: 2px 2px;
+  padding: 6px 6px;
   font-weight: 400;
-  text-decoration: none;  
+  text-decoration: none; 
+  background: #e4edf4;
+  border: 2px solid #e4edf4; 
+  border-bottom: none;
+  border-radius: 5px;
 }
 
 .dl a:hover {
   padding: 6px 6px;
-  opacity: 40%;
+  border: none;
+  color: var(--shadow-color);
+  background: none;
+  transition: .2s;
 }
 
-.resume-header {
+.container-fluid.resume-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
   font-family: "Newsreader", serif;
-  background: whitesmoke;
+  background: #e4edf4;
+  height: 100%;
+  width: 100%;
+  overflow-y: visible;
   margin-bottom: 40px;
+}
+
+.res-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.4px;
 }
 
 .resume h2 {
@@ -450,7 +472,7 @@ nav li:hover {
   flex-direction: column;
   width: 60%;
   color: #000;
-  background-color: whitesmoke;
+  background-color: #eef2f5;
   border-radius: 8px;
   justify-content: flex-start;
   align-items: center;
@@ -470,6 +492,7 @@ nav li:hover {
 
 .resume-contact-info {
   display: flex;
+  flex-wrap: wrap;
   font-size: 14px;
   flex-direction: column;
   align-items: flex-start;
@@ -766,7 +789,7 @@ textarea {
     overflow: hidden;
   }
   
-  .header h1 {
+  .header h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     text-shadow: none;
@@ -800,28 +823,29 @@ textarea {
     justify-content: center;
   }
 
-  .contact-intro h1{
+  ul.resume-contact-info {
     width: 100%;
+    padding-left: 12px;
+    text-align: center;
   }
 
-  .container-fluid {
+  .container-fluid.resume-header {
+    position: relative;
     padding: 0;
     text-align: center;
     width: 100%;
+    height: 100%;
   }
 
-  .resume-header {
+  #resume ul, li, h4 {
     width: 100%;
-    text-align: center;
-    padding: 0 0 0 15px;
-  }
-
-  #resume li, h4 {
+    padding: 0;
     text-align: left;
   }
 
-  .resume h2 {
+  .container-fluid.resume-header > h2 {
     text-align: center;
+    line-height: 24px;
   }
 
   #resume p {
