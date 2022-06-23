@@ -5,6 +5,7 @@ export default function EmailSrvc() {
   function sendEmail(e) {
     e.preventDefault();
 
+    // Credentials for using Emailjs
     emailjs
       .sendForm(
         "service_ere8li4",

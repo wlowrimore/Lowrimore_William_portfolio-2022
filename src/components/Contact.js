@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
 import { FaGithubAlt, FaLinkedinIn, FaMobileAlt, FaAt } from "react-icons/fa";
-// import { render } from "@testing-library/react";
 
 export default function Contact() {
+  // Sets Modal State
   const [isOpen, setIsOpen] = useState(false);
 
+  // Modal Actions
   const showModal = (e) => {
     e.preventDefault();
     setIsOpen(true);

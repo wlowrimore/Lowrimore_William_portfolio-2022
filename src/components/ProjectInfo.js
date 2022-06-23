@@ -1,6 +1,7 @@
 import React from "react";
 import Projects from "./Projects";
 
+// Data to fill Project Cards
 export default function ProjectInfo() {
   return (
     <section id="projects" className="projects">

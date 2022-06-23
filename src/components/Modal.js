@@ -11,7 +11,7 @@ const Modal = ({ onClose, isOpened }) => {
 
   return (
     <>
-      <div className="darkBG" id="modal" onClick={onClose} />
+      <div id="modal" onClick={onClose} />
       <div className="centered">
         <div className="modal">
           <div className="modalHeader">

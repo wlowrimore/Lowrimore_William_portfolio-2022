@@ -9,12 +9,10 @@ import About from "./components/About";
 import ProjectInfo from "./components/ProjectInfo";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-import Modal from "./components/Modal";
-import { render } from "react-dom";
 
 function App() {
   const [currentTab, setCurrentTab] = useState("main");
-
+  // Switch/Case Renders Selected Tab in NavBar
   const renderTab = () => {
     switch (currentTab) {
       case "main":
@@ -31,6 +29,7 @@ function App() {
         return null;
     }
   };
+
   return (
     <div>
       <Navbar currentTab={currentTab} setCurrentTab={setCurrentTab} />
