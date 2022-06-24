@@ -130,7 +130,7 @@ nav li:hover {
   margin-bottom: 20px;
 }
 
-img {
+.myImg {
   width: 175px;
   height: auto;
   margin-bottom: 10px;
@@ -832,9 +832,14 @@ textarea {
 
   /* _________________________________________________________________ */
 
+  .q-pos, h4.navActive {
+    text-align: center;
+  }
+  
   .main-container {
     width: 100%;
   }
+
   .main-container h1 {
     font-size: 36px;
     width: 100%;
@@ -842,6 +847,7 @@ textarea {
 
   .main-container ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -868,6 +874,12 @@ textarea {
   .container-fluid.resume-header > h2 {
     text-align: center;
     line-height: 24px;
+  }
+
+  .img-cont {
+    display: flex;
+    width: 200px;
+    margin-top: 60px;
   }
 
   #resume p {

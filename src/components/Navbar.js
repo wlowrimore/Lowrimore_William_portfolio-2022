@@ -10,16 +10,16 @@ function Navbar(props) {
       </h4>
       <nav>
         <ul>
-          <li className={currentTab === "about" ? "navActive" : "mx-2"}>
+          <li className={currentTab === "about" ? "navActive" : "q-pos"}>
             <span onClick={() => setCurrentTab("about")}>About</span>
           </li>
-          <li className={currentTab === "projects" ? "navActive" : "mx-2"}>
+          <li className={currentTab === "projects" ? "navActive" : "q-pos"}>
             <span onClick={() => setCurrentTab("projects")}>Projects</span>
           </li>
-          <li className={currentTab === "contact" ? "navActive" : "mx-2"}>
+          <li className={currentTab === "contact" ? "navActive" : "q-pos"}>
             <span onClick={() => setCurrentTab("contact")}>Contact</span>
           </li>
-          <li className={currentTab === "resume" ? "navActive" : "mx-2"}>
+          <li className={currentTab === "resume" ? "navActive" : "q-pos"}>
             <span onClick={() => setCurrentTab("resume")}>Resume</span>
           </li>
         </ul>
