@@ -2,10 +2,9 @@ import React from "react";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
 export default function Projects(props) {
-  
   return (
     <div className="projects-card">
-      <img src={props.image} alt="image" />
+      <img src={props.image} alt="example" />
       <div className="info-group">
         <h3>{props.name}</h3>
         <div className="projects-link">

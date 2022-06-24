@@ -25,7 +25,7 @@ function App() {
         return <Contact />;
       case "resume":
         return <Resume />;
-      case "default":
+      default:
         return null;
     }
   };
