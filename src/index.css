@@ -120,8 +120,9 @@ nav li:hover {
 
 .img-cont {
   display: flex;
-  min-width: 13%;
+  min-width: 10.4%;
   padding-top: 10px;
+  width: 13%;
   justify-content: center;
   align-items: center;
   background: var(--shadow-color);
@@ -904,6 +905,7 @@ textarea {
 
   footer {
     position: relative;
+    text-align: center;
   }
 }
 
