@@ -1,6 +1,7 @@
 # WILLIAM LOWRIMORE
 
 ## FULL STACK WEB DEVELOPER<br><br>
+
 ![badge](https://img.shields.io/badge/license-MIT-teal)<br /><br>
 
 ## Description
@@ -16,31 +17,45 @@ Now, because I'm fresh out of school, my resume lacks something important..."wor
 So, check out my portfolio, and if you would like a printout of my resume, there is a link to do that on the Resume page. If you have a role that you think would suit me, please contact me. All of my contact information is right here in the Github repository. Otherwise, you can contact me throught the live site. Thanks for looking...ENJOY!<br><br>
 
 ## Table of Contents
-  - [Installation](#installation)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Questions](#questions)
+
+- [Installation](#installation)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)<br><br>
+
+## Examples:
+
+<img src="src\images\home.jpg" alt="example" /><br><br>
+<img src="src\images\about.jpg" alt="example" /><br><br>
+<img src="src\images\projects.jpg" alt="example" /><br><br>
+<img src="src\images\contact.jpg" alt="example" /><br><br>
+<img src="src\images\contact_modal.jpg" alt="example" /><br><br>
+<img src="src\images\resume.jpg" alt="example" /><br><br>
+<img src="src\images\mobile.jpg" alt="example" /><br><br>
 
 ### License:
-  This project is licensed under:<br />
-  <a href="https//MIT.com" target="_blank" rel="noreferrer noopener">MIT</a>
 
- ### Contributing:
-  If you have any ideas that you would like to share with me, please create a pull request and submit to me those ideas.
+This project is licensed under:<br />
+<a href="https//MIT.com" target="_blank" rel="noreferrer noopener">MIT</a>
 
- ### Questions:
-  Please send any questions or comments to the email address below, or go to the life portfolio site and fill out the contact form.<br />
+### Contributing:
 
-  This project was built using the following languages:<br />
-   - HTML<br>
-   - CSS<br>
-   - JavaScript (JSX, ES6)<br>
+If you have any ideas that you would like to share with me, please create a pull request and submit to me those ideas.
 
-  This is a React project so it was built using `npx create-react-app`, and includes npm React packages.  Other packages include Emailjs.
+### Questions:
 
-  
-  See all of my projects on my GitHub page: https://github.com/wlowrimore, and be sure to visit my gist page where you'll find a RegEx tutorial that I built.
+Please send any questions or comments to the email address below, or go to the life portfolio site and fill out the contact form.<br />
 
-  Contact me at my LinkedIn page: http://www.linkedin.com/in/william-lowrimore-21778310
+This project was built using the following languages:<br />
 
-  You can also email me at: wlowrimore@gmail.com
+- HTML<br>
+- CSS<br>
+- JavaScript (JSX, ES6)<br>
+
+This is a React project so it was built using `npx create-react-app`, and includes npm React packages. Other packages include Emailjs.
+
+See all of my projects on my GitHub page: https://github.com/wlowrimore, and be sure to visit my gist page where you'll find a RegEx tutorial that I built.
+
+Contact me at my LinkedIn page: http://www.linkedin.com/in/william-lowrimore-21778310
+
+You can also email me at: wlowrimore@gmail.com

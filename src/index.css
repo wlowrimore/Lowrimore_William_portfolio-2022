@@ -41,7 +41,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 20px 80px;
   width: 100%;
   height: 150px;
   background: lightgray;
@@ -66,34 +66,34 @@ header h4:hover {
   opacity: 50%;
   transition: .2s;
 }
-nav {
-  display: flex;
-  list-style: none;
+
+.pageTabs {
+  display: flex; 
 }
 
-nav ul {
+.pageTabs ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-between;
   list-style: none;
 }
 
-nav li {
-  font-family: 'Lobster', cursive;
-  color: #000;
-  font-size: 28px;
+.pageTabs span {
+  display: flex;
+  flex-direction: space-around;
+  font-family: "Lobster", cursive;
+  font-size: 26px;
   letter-spacing: 2px;
-  margin: 12px;
+  margin: 4px 14px;
+  cursor: pointer;
 }
 
-nav li:hover {
+.pageTabs span:hover {
   color: var(--hover-red);
   text-decoration: underline;
   cursor: pointer;
 }
-
-/* .navActive {
-  color: #000;
-} */
 
 /* __________________________________MAIN PAGE(HOME)___________________________________ */
 
@@ -819,21 +819,27 @@ textarea {
     margin-bottom: 0;
   }
 
-  nav ul {
-    padding: 0;
-    margin-top: 0;
+  .pageTabs {
+    width: 100%;
   }
 
-  nav li {
+  .pageTabs span {
+    display: flex;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 19px;
+    font-weight: 400;
+    font-size: 22px;
+    width: 100%;
+    background: silver;
+    border: 1px ridge darkgray;
+    padding: 4px 0;
+    margin: 6px 0;
+    justify-content: center;
     color: #000;
   }
 
   /* _________________________________________________________________ */
 
-  .q-pos, h4.navActive {
+  h4.navActive {
     text-align: center;
   }
   
@@ -850,6 +856,22 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .contact-container {
+    display: flex;
+  }
+
+  .contact-intro, .contact-intro a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-intro h1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   ul.resume-contact-info {

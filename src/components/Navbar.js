@@ -5,10 +5,12 @@ function Navbar(props) {
 
   return (
     <header className="header">
-      <h4 className={currentTab === "main" ? "navActive" : ""}>
-        <span onClick={() => setCurrentTab("main")}>William Lowrimore</span>
-      </h4>
       <nav>
+        <h4 className={currentTab === "main" ? "navActive" : "q-pos"}>
+          <span onClick={() => setCurrentTab("main")}>William Lowrimore</span>
+        </h4>
+      </nav>
+      <div className="pageTabs">
         <ul>
           <li className={currentTab === "about" ? "navActive" : "q-pos"}>
             <span onClick={() => setCurrentTab("about")}>About</span>
@@ -23,7 +25,7 @@ function Navbar(props) {
             <span onClick={() => setCurrentTab("resume")}>Resume</span>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
   );
 }
