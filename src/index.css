@@ -49,22 +49,20 @@ header {
   position: sticky; top: 0;
 }
 
-header h4 {
+.header h4, span {
   font-family: "Quicksand", serif;
   font-size: 60px;
-  font-weight: 100;
+  font-weight: 500;
   color: var(--header-red);
   letter-spacing: 4px;
   opacity: 90%;
-  text-shadow: 2px 2px var(--shadow-color);
   margin: 12px 0;
   padding: 6px;
   cursor: pointer;
 }
 
-header h4:hover {
-  opacity: 50%;
-  transition: .2s;
+.header h4:hover, span:hover {
+  opacity: 70%;
 }
 
 .pageTabs {
@@ -93,6 +91,10 @@ header h4:hover {
   color: var(--hover-red);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.pageTabs span.navActive {
+  color: var(--hover-red);
 }
 
 /* __________________________________MAIN PAGE(HOME)___________________________________ */
@@ -839,8 +841,13 @@ textarea {
 
   /* _________________________________________________________________ */
 
-  h4.navActive {
+  .header {
+    width: 100%;
+    display: flex;
+  }
+  .header h4 span {
     text-align: center;
+    font-size: 40px;
   }
   
   .main-container {
