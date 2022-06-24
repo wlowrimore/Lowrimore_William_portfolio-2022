@@ -15,7 +15,7 @@ export default function EmailSrvc() {
       )
       .then(
         (result) => {
-          alert(`Thank you for your input ${name}!`);
+          alert("Thank you! Your message has been sent!");
         },
         (error) => {
           console.log(error.text);
