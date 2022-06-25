@@ -49,7 +49,7 @@ header {
   position: sticky; top: 0;
 }
 
-.header h4 {
+header h4 {
   font-family: "Quicksand", serif;
   font-size: 60px;
   font-weight: 500;
@@ -61,7 +61,7 @@ header {
   cursor: pointer;
 }
 
-.header h4:hover {
+header h4:hover {
   opacity: 70%;
 }
 
