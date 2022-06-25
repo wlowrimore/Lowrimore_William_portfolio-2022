@@ -18,7 +18,12 @@ const ResumePage = () => {
       </div>
       <div className="resume-body">
         <section className="container-fluid resume-header">
-          <h2 className="res-title">William Lowrimore</h2>
+          <div className="res-cont">
+            <h2 className="res-title">
+              William Lowrimore
+              <h5 className="res-subTitle">Full Stack Developer</h5>
+            </h2>
+          </div>
           <ul className="resume-contact-info">
             <li emailto="wlowrimore@gmail.com">wlowrimore@gmail.com</li>
             <li>901.568.7941</li>

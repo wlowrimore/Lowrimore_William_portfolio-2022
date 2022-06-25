@@ -474,16 +474,31 @@ header {
 }
 
 .res-title {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   letter-spacing: 1.4px;
 }
 
+.res-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
 .resume h2 {
   display: flex;
   font-size: 18px;
+  justify-content: center;
   align-items: flex-start;
   margin-right: 6px;
+}
+
+.res-subTitle {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .resume-body {
