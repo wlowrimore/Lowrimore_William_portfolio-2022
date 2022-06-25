@@ -50,12 +50,11 @@ header {
 }
 
 .my-title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: var(--header-red);
   letter-spacing: 4px;
-  opacity: 90%;
   margin: 12px 0;
   padding: 6px;
   cursor: pointer;
