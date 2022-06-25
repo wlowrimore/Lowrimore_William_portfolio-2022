@@ -61,7 +61,7 @@ header {
 }
 
 .my-title:hover {
-  opacity: 70%;
+  color: var(--hover-red);
 }
 
 .pageTabs {
@@ -390,7 +390,6 @@ header {
 
 .contact-links a:hover {
   color: var(--shadow-color);
-  transition: .2s;
 }
 
 .contact-links a {
@@ -405,7 +404,6 @@ header {
 
 .icon {
   font-size: 30px;
-  font-weight: 100;
   margin-right: 14px;
 }
 
