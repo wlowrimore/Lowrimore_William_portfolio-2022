@@ -5,9 +5,9 @@ function Navbar(props) {
 
   return (
     <header className="header">
-      <nav>
+      <div className="my-title">
         <h4 onClick={() => setCurrentTab("main")}>William Lowrimore</h4>
-      </nav>
+      </div>
       <div className="pageTabs">
         <ul>
           <li className={currentTab === "about" ? "navActive" : "mx-2"}>
