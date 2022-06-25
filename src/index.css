@@ -44,7 +44,7 @@ header {
   padding: 20px 80px;
   width: 100%;
   height: 150px;
-  background: white;
+  background: lightgray;
   border-bottom: 1px solid var(--shadow-color);
   position: sticky; top: 0;
 }
