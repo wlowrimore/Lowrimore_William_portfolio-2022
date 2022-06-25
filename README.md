@@ -33,7 +33,7 @@ So, check out my portfolio, and if you would like a printout of my resume, there
 <img src="src\images\resume.jpg" alt="example" /><br><br>
 <img src="src\images\mobile.jpg" alt="example" /><br>
 
-## Visit the <a href="https://lowrimore-william-portfolio-2022-977y6obfj-wlowrimore.vercel.app" target= "_blank" rel="noreferrer noopener">Live</a> Site!
+## Visit the <a href="https://lowrimore-william-portfolio-2022-f68bmees4-wlowrimore.vercel.app/" target= "_blank" rel="noreferrer noopener">Live</a> Site!
 
 ### License:
 
