@@ -31,6 +31,20 @@ export default function ProjectInfo() {
           Responsive."
         />
         <Projects
+          image={require("../images/sayre_joan_phtgrphy.jpg")}
+          name="Sayre Joan Photography (SEO)"
+          repo="https://github.com/wlowrimore/berman_photo_6_22"
+          target="_blank"
+          rel="noreferrer noopener"
+          live="https://wlowrimore.github.io/berman_photo_6_22/index.html"
+          description="This is a mock website for a client and friend of mine. I built it as a SEO using 
+          only HTML, Vanilla CSS, and Vanilla JavaScript. I implemented a little jQuery so the site would
+          appear to be a one page application. The code is clean and uses best practices (with the exception 
+          of the image files being in strict jpeg format). It scored a SEO 100 when I ran a Lighthouse audit, 
+          and the UI is polished and mobile responsive. I wanted to get as close to 'React.js' functionality 
+          as possible, and feel very good about the outcome."
+        />
+        <Projects
           image={require("../images/budget_tracker_pwa.jpg")}
           name="Budget Tracker (PWA)"
           repo="https://github.com/wlowrimore/Vandy-bc-PWA-Budget-Tracker-Chlng-19-2022"
